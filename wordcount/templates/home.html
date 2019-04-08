@@ -1,0 +1,19 @@
+<h1>안녕하세요, 글을 작성해주세요.</h1>
+
+<!-- 워드 카운트 설명 페이지로 넘어가 -->
+<a href=" {%url 'about' %} ">about으로 돌아가기</a>
+
+<!-- 글작성할 폼 만들기 -->
+<form action="{%url 'result' %}">
+    <textarea name="fulltext" id="" cols="30" rows="10"></textarea>
+
+    <!-- 글작성한 것 결과 페이지로 넘기기 -->
+    
+    <input type="submit" value="글자수세기">
+    
+    
+</form>
+
+
+
+
