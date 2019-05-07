@@ -19,3 +19,6 @@ def result(request):
             word_count[word]=1
                     
     return render(request, 'result.html', {'full': text, 'total':len(words), 'count' : word_count.items} )
+
+def result_error(request):
+    return render(request, 'result_error.html')

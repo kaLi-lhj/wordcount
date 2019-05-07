@@ -22,4 +22,5 @@ urlpatterns = [
     path('',wordcount.views.home, name='home'),
     path('about/', wordcount.views.about, name='about'),
     path('result/', wordcount.views.result, name='result'),
+    path('result_error/', wordcount.views.result_error,name='result_error'),
 ]
